@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبات الفيوم</title>
+    <link rel="stylesheet" href="CSS/style.css">
+	  <link rel="stylesheet" href="CSS/all.min.css">
+    <script src="Js/script.js"></script>
+    
+    
+  </head>
+<body>
+    <!-- ٍStart Header -->
+    <header>
+      <div class="container" >
+        <div class="topHeader">
+         <ul class="right_list">
+          <li class="right_list_link" style="margin-right: 35px;"><a href="index.html" >الرئـيـسـية</a></li>
+          <li class="right_list_link" style="margin-right: 24px;" ><a href="HTML/About.html" > عــن الــكـلـيـة</a>
+         </ul>
+         <div class="left_list">
+          <div class="icons" >
+            <a href="https://www.facebook.com/fciFym" target="_blanck"><span></span></a>
+            <a href="https://twitter.com/FayUniversity"  target="_blanck"><span></span></a>
+            <a href="mailto:"coinf@fayoum.edu.eg><span></span></a>
+          </div>
+        </div>
+        <div class="middle_list">
+          <script>
+          //Time and data Display
+           var today = new Date();
+           var day = today.getDay();
+            var daylist = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
+              var monthname = ["يناير", "فبراير", "مارس", "إبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"];
+         var y = today.getFullYear();
+       var m = (today.getMonth());
+         var d = today.getDate();
+        var time2 = today.getSeconds() + " : " + today.getMinutes() + " : " + today.getHours();
+       var date = daylist[day] + " " + d + " " + monthname[m] +  " " + y ;
+         document.write (date +"  م  "  + "      ------      " + time2) 
+         </script>
+        
+        </div>
+        </div>
+      <div class="headBack">
+        <div class="logo">
+          كـلية الحاسبات والمعلومات 
+          <p>جــامعة الفيوم</p>
+          </div>
+        </div>
+      </div>
+    </header>
+      <!-- End Header -->
+      <!-- Start menu div  -->
+      <div class="main-menu">
+        <div class="container">
+          <ul class="menu">
+            <li><a href="HTML/AI.html" style="text-decoration: none; color: #eee;"> <i class="fa fa-angle-double-down" style="font-size: 17px; padding-right: 7px;"></i>البرامج الخاصة</a>
+              <ul  style="padding-top: 7px;" >
+                <li style ="width: 250px;margin-left: -100px;border-top: 4px solid #df2128; text-align: right;"  ><a href="HTML/AI.html" style="text-decoration: none; color: #eee;">برنامج الذكاء الاصطناعي  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/BIO.html" style="text-decoration: none; color: #eee;">برنامج المعلوماتية الحيوية  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+              </ul>
+            </li>
+            <li><a href="HTML/studentActi"style="text-decoration: none; color: #eee;"><i class="fa fa-angle-double-down" style="font-size: 17px; padding-right: 7px;text-decoration: none; color: #eee;"></i>الانشطة</a>
+              <ul style="padding-top: 7px;"  >
+                <li style ="width: 250px;margin-left: -100px;text-align: right;border-top: 4px solid #df2128;"><a href="HTML/studentActi.html" style="text-decoration: none; color: #eee;"> الانشطة الطلابية  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/workshops.html" style="text-decoration: none; color: #eee;">  ورش العمل  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+              </ul>
+            </li>
+            
+            
+            <li><a href="HTML/seatNumbers.html"style="text-decoration: none; color: #eee;"><i class="fa fa-angle-double-down" style="font-size: 17px; padding-right: 2px;text-decoration: none; color: #eee;"></i>   الطلاب</a>
+              <ul  style="padding-top: 7px;" >
+                <li style ="width: 250px;margin-left: -100px;border-top: 4px solid #df2128;text-align: right;"><a href="HTML/seatNumbers.html" style="text-decoration: none; color: #eee;"> ارقام الجلوس <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/lectureTable.html" style="text-decoration: none; color: #eee;"> الجدول الدراسى   <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/GrPro.html" style="text-decoration: none; color: #eee;"> مشروعات التخرج  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/Guide.html" style="text-decoration: none; color: #eee;">  دليل الطالب  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+              </ul>
+              
+            </li>
+            
+           
+            
+            <li><a href="HTML/Computer science.html"style="text-decoration: none; color: #eee;"><i class="fa fa-angle-double-down" style="font-size: 17px; padding-right: 7px;text-decoration: none; color: #eee;"></i>الاقسام العلمية</a>
+              <ul  style="padding-top: 7px;" >
+                <li style ="width: 250px;margin-left: -100px;border-top: 4px solid #df2128;text-align: right;"><a href="HTML/Computer science.html" style="text-decoration: none; color: #eee;">علوم الحاسب  <i class="fa fa-caret-left" style="font-size:24px"></i></a>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/Information Systems.html" style="text-decoration: none; color: #eee;">نظم المعلومات  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+                
+              </ul>
+            </li>
+            <li><a href="HTML/Administration.html"style="text-decoration: none; color: #eee;"><i class="fa fa-angle-double-down" style="font-size: 17px; padding-right: 7px;text-decoration: none; color: #eee;"></i>إدارة الكلية</a> 
+              <ul  style="padding-top: 7px;" >
+                <li style ="width: 250px;margin-left: -100px;border-top: 4px solid #df2128;text-align: right;"><a href="HTML/Administration.html" style="text-decoration: none; color: #eee;">عمـيد الكـلـية   <i class="fa fa-caret-left" style="font-size:24px"></i></a> </li>
+              <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/Administration2.html" style="text-decoration: none; color: #eee;">وكلاء الكـلـية  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+              <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/Administration3.html" style="text-decoration: none; color: #eee;">مجلس الكـلـية  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+  
+              </ul>
+            </li>
+            <li ><a href="" style="text-decoration: none; color: #eee;"><i class="fa fa-angle-double-down" style="font-size: 17px; padding-right: 2px;text-decoration: none; color: #eee;"></i> عن الكـلـية</a>
+              <ul  style="padding-top: 7px;" >
+                <li style ="width: 250px;margin-left: -100px;border-top: 4px solid #df2128;text-align: right;" ><a href="HTML/About.html" style="text-decoration: none; color: #eee;">التعريف بالكـلـية  <i class="fa fa-caret-left" style="font-size:24px"></i></a>
+                </li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/About2.html" style="text-decoration: none; color: #eee;">نشأة الكـلـية  <i class="fa fa-caret-left" style="font-size:24px"></i></a>
+                </li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/About3.html" style="text-decoration: none; color: #eee;">شعار الكـلـية  <i class="fa fa-caret-left" style="font-size:24px"></i></a>
+                </li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/About4.html" style="text-decoration: none; color: #eee;">الرؤيا والرسالة  <i class="fa fa-caret-left" style="font-size:24px"></i></a>
+                </li>
+                <li style ="width: 250px;margin-left: -100px;text-align: right;"><a href="HTML/About5.html" style="text-decoration: none; color: #eee;">سياسة الكـلـية  <i class="fa fa-caret-left" style="font-size:24px"></i></a></li>
+              </ul>
+            </li>
+
+            <li><a href="index.html" style="text-decoration: none; color: #eee;">الرئيسية</a></li>
+          </ul>
+        </div>
+      </div>
+    
+    <!-- End menu div  -->
+
+    <div class="overlay " id="sliding"><img name="slide" width="999" height="450"></div>
+    <div class="Goals">
+      <span id="goals"><img src="Photos/learning-objectives-for-training-evaluation.jpg" alt="Gooals" style="border-radius: 50%;">  </span>
+      <dl style="margin-top: -154px; margin-right: -16px;">
+        <dt style="font-size: 35px;padding-bottom: 21px; color: #9d1f23;"> بـعـض أهـداف الكلية :</dt>
+        <dd>  • إعداد خريجين في الحاسبات والمعلومات مؤهلين بالأسس النظرية ومنهجيات التطبيق بما يؤهلهم للمنافسة المحلية والاقليمية 
+          <br>
+          والعالمية في تطوير تكنولوجيا الحاسبات والمعلومات وتطبيقاتها.
+
+        </dd>
+        <br>
+          <dd> • عقد الاتفاقيات العلمية مع الهيئات والمؤسسات المناظرة علي المستوي المحلي والإقليمي والعالمي 
+     <br>
+            بهدف تبادل الآراء وإجراء البحوث المتعلقة بتخصصات الحاسبات والمعلومات.
+            </dd>
+            <br>
+            <dd>
+              • إنشاء وحدات خدمية متخصصة في الفروع المختلفة للحاسبات والمعلومات.
+            </dd>
+      </dl>
+    </div>
+
+    <div >
+      <section>
+        <div style=" margin-right: 22px; border-left: 2px solid red;">
+          <h4>آخر الأخبار</h4>
+          <p>• تستعد الكلية لإجراء الإمتحانات العملية خلال الأيام القادمة.</p>
+          <p>• أسرة حاسبات ومعلومات تشارك في جميع الأنشطة الثقافية والفنية والرياضية المقامة في الجامعة.</p>
+          <p>• شارك طلاب حاسبات ومعلومات في انتخابات اتحاد الطلبة علي مستوي الجامعة.</p>
+          <p> • حاسبات تقيم محاضرة إسبوعية لتدريب الطلبة علي مهارات حل المشكلات للمنافسة في المسابقات البرمجية.</p>
+        </div>
+        <div style=" margin-right: 26px; border-left: 2px solid red;margin-left: -128;" >
+          <h4>الأحداث الهامة</h4>
+          <p>• عميد حاسبات يكرم السادة اعضاء هيئة التدريس ووحدة الشبكات.</p>
+          <p> • توقيع عقد اتفاق بين مركز تنمية القدرات وكلية الحاسبات والمعلومات.</p>
+          <p> • عميد حاسبات الفيوم يكرم الخريجين.</p>
+          <p> • حاسبات الفيوم تسدل الستار على الفصل الدراسي الثاني بمناقشة مشروعات التخرج. </p>
+        </div>
+        <div style="margin-left: -106px;margin-right: 82px;">
+          <h4 style="margin-right: 22px;">عميد الكلية</h4>
+          <h5> د. محمد حلمي خفاجي.</h5>
+          <img src="./Photos/37390734_10155545431810933_1506734433640644608_n.jpg" alt="" style="width: 250px;border: 2px solid #fff ;border-radius: 8px;padding: 2px;background-color: #fff ; margin-right: -53px;">
+        </div>
+      </section>
+    </div>
+    <!-- End Section -->
+    
+     <!-- start footer  -->
+      
+        <div class="footer" >
+        
+         <div class="container" style="position: relative;"> 
+           <div class="box">
+             <div style="color: #eee;direction: rtl;padding-right: 92px;font-weight: bolder;font-size: 38px;"> تــواصــل مــعـنا </div>
+            
+             <hr class="new">
+           <div style="padding-top: 50px;">
+             <div class="icons" style="margin-left: 108px;">
+               <a href="https://www.facebook.com/fciFym" target="_blanck"><span></span></a>
+               <a href="https://twitter.com/FayUniversity"  target="_blanck"><span></span></a>
+               <a href="mailto:"coinf@fayoum.edu.eg><span></span></a>
+             </div>
+            <br>
+             <hr class="new">
+            <br>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6957.633470634636!2d30.832168!3d29.317051000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafc7f3258784c2f3!2sFaculty%20of%20Computer%20%26%20Information!5e0!3m2!1sen!2sus!4v1640187086714!5m2!1sen!2sus" width="300" height="300" style="border: 3px solid #721c1e;PADDING: 2px;;" allowfullscreen="" loading="lazy"></iframe>
+           </div>
+           </div>
+           <div class="box">
+             <div style="color: #eee;direction: rtl;padding-right: 92px;font-weight: bolder;font-size: 38px;"> روابــط هــامـة </div>
+             
+             <hr class="new">
+             <ul class="links">
+               <li><a href="https://coinf@fayoum.edu.eg" target="_blank"> الموقع الرسمي لجامعة الفيوم</a></li>
+              
+               
+               <hr class="new">
+              
+               
+               <li><a href="https://www.facebook.com/FayoumU" target="_blank">facebook Fayoum University</a></li>
+              
+              
+               <hr class="new">
+              
+               <li><a href="https://www.facebook.com/fciFym" target="_blank">facebook FCI News</a></li>
+              
+               
+               <hr class="new">
+              
+               <li><a href="https://www.facebook.com/307798569857477" target="_blank"> الصفحة الرسمية لرئيس الجامعة</a></li>
+              
+               
+               <hr class="new">
+              
+               <li><a href="https://www.facebook.com/mohamed.h.khafagy" target="_blank">الصفحة الرسمية لرئيس الكلية</a></li>
+              
+               
+               <hr class="new">
+               
+               <li><a href="https://www.fayoum.edu.eg/fcifym/stdemail.aspx" target="_blank">بوابة البريد الإلكتروني </a></li>
+              
+               
+               <hr class="new">
+              
+               <li><a href="https://www.fayoum.edu.eg/fcifym/Electronicquestionnaire.aspx" target="_blank">الإستبيان الإلكتروني </a></li>
+             </ul>
+           </div>
+           <div class="box">
+             <div style="color: #eee;direction: rtl;padding-right: 85px;font-weight: bolder;font-size: 38px;"> إتـــصــل بــنـــا </div>
+             
+             <hr class="new">
+             <div class="line">
+               <i class="fas fa-map-marker-alt fa-fw"></i>
+               <div class="info">Egypt , Fayoum , 32 Zaid Bin Haritha Street , Al Mashtal , Fayoum university , faculty of computer science.</div>
+             </div>
+            
+             <hr class="new">
+             <div class="line">
+               <i class="far fa-clock fa-fw"></i>
+               <div class="info">
+                 <p>University Avilable : from Saturday to Thursday. </p>
+                 <p>Time Work : from 9:00 am to 03:00 pm. </p>
+     
+                 <hr class="new">
+               </div>
+             </div>
+             <div class="line">
+               <i class="fas fa-phone-volume fa-fw"></i>
+               <div class="info">
+                 <span> +0842154835 <a style="padding-left: 119px; font-size: 25px;">: هــاتــف</a></span>
+                 <span> +0842154835 <a style="padding-left: 119px; font-size: 25px;">: فــاكــس</a> </span>
+                 <hr class="new">
+               </div>
+             </div>
+           </div>
+          
+          </div>
+         <p class="copyright" >CopyRight &copy; 2021 All Right Reserved To ELShikh &reg; Team</p>
+        </div>
+      
+      
+    
+    <!-- end footer  -->
+  
+</body>
+</html>

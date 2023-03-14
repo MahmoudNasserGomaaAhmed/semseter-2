@@ -1,0 +1,349 @@
+* {box-sizing: border-box;}
+
+body{margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif; background-color: #e1dfd3;}
+
+/* Start Header  */
+.topHeader{
+  background-color: #935434;
+  margin-left: -75px;
+  margin-right: -74px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+.right_list{
+  display: flex;
+  direction: rtl;
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 21px;
+  font-family: sans-serif;
+  margin-left: 500px;
+}
+
+.right_list_link a:visited {
+  text-decoration: none;
+}
+
+.right_list_link a:hover {
+  color: #9d1f23;
+}
+.left_list{
+  direction: ltr;
+  margin-top: -30px;
+  margin-left: 24px;
+}
+.middle_list{
+  text-align: center;
+    background: linear-gradient(to right, #8e7a47 , #c34a21);
+    padding: 9px 80px 12px 80px;
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 449px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.headBack{
+  background-image: url("../Photos/texture-05.jpg");
+  width: 1349px;
+  margin-left: -75px;
+  margin-bottom: -11px;
+  background-size: cover;
+
+}
+.logo {
+  padding: 16px 0;
+  height: 130px;
+  color: #2E2D29;
+  text-align: right;
+  position: relative;
+  font-size: 30px;
+  background-image: url(../Photos/لوجو\ الكلية.png);
+  background-size: 133px 120px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-right: 35px;
+  margin-left: 43px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.logo p {
+  color: #9d1f23;
+  font-weight: bolder;
+  margin:0;
+}
+/* End Header */
+/* Start menu div */
+.main-menu {
+  background-color: #2E2D29;
+  margin-top: 11px;
+  padding-left: 115px;
+  
+}
+
+.menu {
+  color:#FFF;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #2E2D29;
+}
+
+.menu li {
+  background-color: #2E2D29;
+  width: 150px;
+  height: 57px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+
+.menu li:hover {
+  background-color:#bbb7a5;
+  
+}
+
+.menu ul {
+  display: none;
+  
+}
+
+.menu li:hover >ul{
+  display: block;
+  
+  
+}
+
+ul li a {color:#FFF;text-decoration:none;}
+
+
+/* End menu div */
+
+/* Start underHeader */
+.underHeader {
+  direction: rtl; 
+  background-color: #bbb7a5; 
+  padding-bottom: 1.5px; 
+  padding-top: 1px; 
+  padding-right:18px ;
+}
+.page-title {
+  display: inline-flex;
+    font-size: 1.9em;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 22px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -5px;
+  padding-bottom: 12px;
+  border-bottom: 5px solid #c70e0e;
+  justify-content: space-between;
+
+}
+/* Start underHeader */
+/* End menu lu */
+/* End Header */
+/* Start OverLay */
+
+.overlay {
+  background-color: #d0d9db;
+  height: 500px;
+ padding: 45px 220px 1px ;
+ 
+  
+}
+
+/* End Overlay  */
+  
+/* About */
+
+
+.main{
+   
+  position: relative; 
+  height: 230vh;
+  width: 100%;
+  max-width: 100%;
+  
+  
+}
+.about{
+    direction: rtl;
+    font-size: 21px;
+    background-color: lightgray;
+    margin-left: 126px;
+    margin-right: 138px;
+    height: 230vh;
+    margin-top: 0px;
+    padding-top: 177px;  
+}
+  .Ai img {
+    outline: 3px solid #bbb7a5;
+    width: 50%;
+    height: 205px;
+    margin-right: 237px;
+    margin-bottom: 25px;
+  }
+/* About */
+
+/* Start Footer */
+hr.new {
+  border: 1px solid #721c1e;
+}
+.footer{
+  background-color: rgb(70 66 39);
+  position: relative; 
+  padding: 70px 0 0;
+  font-size: 17px;
+  align-items: center;
+  justify-content: center;
+}
+.footer::before{
+  content: " ";
+  background-image: url("../Photos/fayoum2.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+  background-position: center;
+  width: 100%;
+  
+}
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.footer .box h3 {
+  color: white;
+  font-size: 50px;
+  margin: 0 0 20px;
+}
+.footer .box .social {
+  display: flex;
+}
+ul { list-style:none;padding:0;margin:0;font-size: 19px;}
+.footer .box .social li {
+  margin-right: 10px;
+}
+.footer .box .social li a {
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+.footer .box .social .facebook:hover {
+  background-color: #1877f2;
+}
+.footer .box .links li {
+  padding: 15px 0;
+}
+
+.footer .box .links li:hover {
+  padding-left: 10px;
+}
+.footer .box .links li:hover a {
+  color: white;
+}
+.footer .box .links li a {
+  color: black;
+}
+.footer .box .links li a::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\F101";
+  font-weight: 900;
+  margin-right: 10px;
+  color: crimson;
+}
+.footer .box .line {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-bottom: 30px;
+}
+.footer .box .line i {
+  font-size: 25px;
+  color: crimson;
+  margin-right: 10px;
+}
+.footer .box .line .info {
+  line-height: 1.7;
+  flex: 1;
+}
+.footer .box .line .info span {
+  display: block;
+}
+.footer .copyright {
+  padding: 25px 0;
+  text-align: center;
+  color: black;
+  margin: 50px 0 0;
+  border-top: 2px solid #721c1e;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* Icons */
+
+.icons a {
+  color:#000;
+  background: rgb(200, 191, 191);
+  border-radius:6px;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+  width:40px;
+  height:39px;
+  padding-top:12px;
+  margin:0 2px;
+  
+}
+
+.icons a:hover:nth-of-type(1) {
+  background: #3943d1;
+}
+.icons a:hover:nth-of-type(2) {
+  background: #1d9bf0;
+}
+.icons  a:hover:nth-of-type(3) {
+  background: crimson;
+}
+
+/* font awesome icons */
+
+.icons a:nth-of-type(1):before {
+content:'\f09a';
+}
+.icons a:nth-of-type(2):before {
+content:'\f099';
+
+}
+.icons a:nth-of-type(3):before {
+content:'\f674';
+}
+
+/* End Footer  */
+.container {
+  margin: auto;
+  width: 1200px;
+}
+
